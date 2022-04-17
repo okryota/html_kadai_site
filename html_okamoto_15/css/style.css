@@ -1,0 +1,480 @@
+/* ここから下に記載していく */
+.ul {
+    text-align: right;
+    overflow: hidden;
+    justify-content: flex-end;
+    list-style:none;
+    margin: 0 auto;
+    z-index: 20;
+}
+     
+ul li {
+    display: inline-block;
+    padding: 26px 10px 20px 10px;
+}   
+
+a {
+    color: rgb(8, 8, 8);
+    text-transform: uppercase;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    position: relative;
+  }
+.center1 {
+    position: absolute;
+    font-size: 40px;
+    color: #ffffff;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.center2 {
+    position: absolute;
+    font-size: 25px;
+    color: #ffffff;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.h1 {
+    color:#ffd61a;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.about01 {
+    height: 30px;
+    font-size: 24px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.about02 {
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+
+.about03 {
+    font-size: 16px;
+    padding-bottom: 40px;
+    line-height: 2;
+}
+
+.about04{
+    font: 16px;
+    height: 40px;
+}
+
+.about05{
+    font: 16px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.about06{
+    padding-bottom: 60px;
+}
+.about07 {
+    font-size: 16px;
+    line-height: 3;
+}
+.image div{
+    width: 25%;
+}
+
+.image{
+    display: flex;
+}
+
+.course01{
+    padding-top: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    color: black;
+}
+.course02{
+    font-size: 16px;
+    line-height:2;
+}
+.course03{
+    font-size: 16px;
+    padding-bottom: 60px;
+    line-height:2;
+}
+
+.flexA {
+  display: flex; 
+}
+.flexA .imageA {
+  width: 50%; 
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+.flexA .rightA {
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+.flexA .titleA {
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 50px;
+    padding-top: 120px;
+    padding-bottom: 40px;
+}
+.flexA .textA {
+    font-size: 16px;
+    padding-right: 50px;
+    line-height:2;
+}
+.flexA .textA1 {
+    ffont-size: 16px;
+    padding-bottom: 120px;
+    padding-right: 50px;
+    line-height:2;  
+}
+
+.flexB {
+    display: flex;
+    justify-content: flex-end 
+  }
+  .flexB .imageB {
+    width: 50%; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+  }
+  .flexB .rightB {
+    margin: 0 0 0 20px;
+    padding: 0;
+  }
+  .flexB .titleB {
+      font-size: 24px;
+      font-weight: bold;
+      padding-left: 50px;
+      padding-top: 120px;
+      padding-bottom: 40px;
+  }
+  .flexB .textB {
+      font-size: 16px;
+      padding-left: 50px;
+      line-height:2;
+  }
+  .flexB .textB1 {
+      font-size: 16px;
+      padding-bottom: 120px;
+      padding-left: 50px;
+      line-height:2;  
+  }
+
+  .flexC {
+    display: flex; /*横並び*/
+  }
+  .flexC .imageC {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+  }
+  .flexC .rightC {
+    margin: 0 0 0 20px;
+    padding: 0;
+  }
+  .flexC .titleC {
+      font-size: 24px;
+      font-weight: bold;
+      padding-right: 50px;
+      padding-top: 120px;
+      padding-bottom: 40px;
+  }
+  .flexC .textC {
+      font-size: 16px;
+      padding-right: 50px;
+      line-height:2;
+  }
+  .flexC .textC1 {
+      font-size: 16px;
+      padding-bottom: 120px;
+      padding-right: 50px;
+      line-height:2;  
+  }
+.newsA,.newsB,.newsC{
+    width:33%;
+    float:left;
+    padding-bottom: 60px;
+    }
+
+.news01{
+    color:#ffd61a;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 60px;
+  
+}
+.news02{
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.btn0{
+    text-align: center;
+    margin: 25px auto;
+    }
+
+.more :hover:before,
+.more :hover:after {
+    width: 100%;
+  }
+  
+  .more:hover .line:before,
+  .more:hover .line:after {
+    height: 100%;
+  }
+  
+  .more:before {
+    background-color: #97ca65;
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 10;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    bottom: 0;
+    height: 10px;
+    right: 0;
+    width: 0;
+  }
+  
+  .more:after {
+    background-color: #97ca65;
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 10;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    height: 10px;
+    left: 0;
+    top: 0;
+    width: 0;
+  }
+  
+  .more.line:before {
+    background-color: #97ca65;
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 10;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    height: 0;
+    right: 0;
+    top: 0;
+    width: 10px;
+  }
+  
+  .more.line:after {
+    background-color: #97ca65;
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: 10;
+    transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    bottom: 0;
+    height: 0;
+    left: 0;
+    width: 10px;
+  }
+.access01{
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    padding-top: 60px;
+}
+.access02{
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.ITEMS div{
+    margin: auto;
+}
+.contact01{
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+    padding-top: 60px;
+}
+.contact02{
+    font-size: 16px;
+    padding-top: 30px;
+}
+
+.contact03{
+    font-size: 16px;
+    padding-top: 60px;
+    line-height:2; 
+}
+
+.contact04{
+    font-size: 16px;
+    line-height:2; 
+}
+
+.contact05{
+    font-size: 16px;
+    padding-top: 30px;
+    line-height:2; 
+}
+.contact06{
+    font-size: 16px;
+    padding-bottom: 70px;
+}
+.access{
+    margin: auto;
+    padding-right: 0px;
+}
+.accessA {
+    font-style: 16px;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 30px;
+}
+.accessB {
+    font-style: 16px;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 30px;
+}
+.accessC {
+    font-style: 16px;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+}
+.news03{
+    padding-top: 30px;
+}
+.news04{
+    padding-top: 24px;
+    line-height:2; 
+}
+.news05{
+    line-height:2; 
+}
+.form{
+    max-width: 680px;
+    width: calc(100% - 10px);
+    margin: 0 auto;
+    font-size: 16px;
+    }
+    
+    .item{  
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-top: 8px;
+    }
+    
+    .label{
+    width: 180px;
+    padding-right: 16px;
+    justify-content:center;
+    }
+    
+    .label{
+        padding-right: 16px;
+        justify-content:center;
+        }
+        
+    .label2{
+    width: 180px;
+    margin-left: auto;
+    }
+            
+    .label-required{
+    color: #ff6347;
+    font-weight: bold; 
+    font-size: 16px;
+    }
+    
+    input[type="text"],input[type="kana"]{
+    border: solid 1px #aaa;
+    width: 328px;
+    border-radius: 1px;
+    padding: 8px;
+    font-size: 16px;
+    }
+    
+    select{
+    appearance: none;
+    cursor: pointer;
+    border: solid 1px #aaa;
+    border-radius: 1px;
+    width: 345px;
+    padding: 8px;
+    font-size: 15px;
+    }
+    
+    textarea{
+    border: solid 1px #aaa;
+    border-radius: 1px;
+    padding: 10px;
+    height: 80px;
+    width: 320px;
+    font-size: 15px;
+    }
+    
+    input[type="doki"]{
+    padding-bottom: 24px; 
+    font-size: 16px;
+        }
+    
+    .item2{  
+    display: flex;
+    padding-top: 16px;
+    padding-left: 40px;
+    line-height:2.5; 
+    }    
+
+
+    .btn{
+    text-align: center;
+    margin: 25px auto;
+    }
+    
+    button{
+    background: hsl(50, 100%, 64%);
+    border-radius: 0px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 140px;
+}
+
+footer {
+    background: #707070;
+    color: #ffffff;
+    padding-top:30px;
+    padding-bottom: 30px;
+    }
