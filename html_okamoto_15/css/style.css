@@ -90,6 +90,40 @@ h2 {
     font-size: 16px;
     line-height: 3;
 }
+.slider {
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+  
+  }
+  .slider-item {
+    width: 300px;
+    float: left;
+  }
+  img{
+    width:100%;
+  }
+  .slider-inner {
+    width: 300%;
+    animation: slider 15s infinite ease;
+  }
+  
+  @keyframes slider {
+      0% {
+      transform: translateX(0);
+      }
+      33% {
+      transform: translateX(-300px);
+      }
+      66% {
+      transform: translateX(-600px);
+      }
+      100% {
+      transform: translateX(0);
+      }
+  }
+
 .image div{
     width: 25%;
 }
@@ -214,11 +248,42 @@ h2 {
       padding-right: 50px;
       line-height:2;  
   }
-.newsA,.newsB,.newsC{
-    width:33%;
+.news00{
+    display: flex; /*横並び*/
+}
+
+  .newsA,.newsB,.newsC{
+    display: flex; /*横並び*/
+    width:300px;
     float:left;
     padding-bottom: 60px;
+    font: 16px;
     }
+
+.newsA,.newsB,.newsC {
+    display: flex; /*横並び*/
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.25);
+    background-color: #fdfdfd;
+    color: rgb(4, 4, 4);
+    display: inline-block;
+    padding: 0.6em 2em;
+    margin: 0 0 1em;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.newsA:hover {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+    transform: translateY(-0.1875em);
+}
+.newsB:hover {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+    transform: translateY(-0.1875em);
+}
+.newsC:hover {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+    transform: translateY(-0.1875em);
+}
+
 
 .news01{
     color:#ffd61a;
